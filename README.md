@@ -4,13 +4,15 @@ Flutter app
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Public api used,
+base url -- "https://jsonplaceholder.typicode.com"
+for getting user posts -- "https://jsonplaceholder.typicode.com/posts"
+for creating user post -- "https://jsonplaceholder.typicode.com/posts"
 
-A few resources to get you started if this is your first Flutter project:
+post creation is faked, no actual post is created on server
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+screen recording link -- "https://drive.google.com/file/d/1KxJIXDUpr7cKIHw1V4xBTpsD1bNpqJjE/view?usp=sharing"
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+Clone the project and get the dependencies using flutter pub get command to run the project.
+
