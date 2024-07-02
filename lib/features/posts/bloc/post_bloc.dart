@@ -1,5 +1,5 @@
-import 'package:advance_mobility_app/posts/repository/post.dart';
-import 'package:advance_mobility_app/posts/repository/post_repository.dart';
+import 'package:advance_mobility_app/features/posts/repository/post.dart';
+import 'package:advance_mobility_app/features/posts/repository/post_repository.dart';
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
 
@@ -19,7 +19,7 @@ class PostBloc extends Bloc<PostEvent, PostState> {
           emit(PostsLoadingFailure());
         }
       } else if (event is CreatePost) {
-        emit(PostsLoading());
+        emit(PostCreating());
         try {
           await postsRepository.createPost(event.title, event.body);
           emit(PostCreated());

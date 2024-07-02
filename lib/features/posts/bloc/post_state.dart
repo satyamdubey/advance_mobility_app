@@ -14,6 +14,9 @@ class PostsLoaded extends PostState {
 
 class PostsLoadingFailure extends PostState {}
 
+
+class PostCreating extends PostState {}
+
 class PostCreated extends PostState {}
 
 class PostCreationFailure extends PostState {}
