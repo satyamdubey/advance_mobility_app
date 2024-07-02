@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:advance_mobility_app/config/commons/screens/route_error_screen.dart';
-import 'package:advance_mobility_app/features/posts/views/posts_screen.dart';
 import 'package:advance_mobility_app/config/commons/screens/splash_screen.dart';
-import 'package:advance_mobility_app/features/posts/views/create_post_screen.dart';
+import 'package:advance_mobility_app/features/user_posts/views/posts_screen.dart';
+import 'package:advance_mobility_app/config/commons/screens/route_error_screen.dart';
+import 'package:advance_mobility_app/features/user_posts/views/create_post_screen.dart';
 
 
 class AppRoutes {

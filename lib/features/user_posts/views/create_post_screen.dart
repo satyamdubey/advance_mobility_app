@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:advance_mobility_app/features/posts/bloc/post_bloc.dart';
+import 'package:advance_mobility_app/features/user_posts/bloc/post_bloc.dart';
 
 
 class CreatePostScreen extends StatelessWidget {
